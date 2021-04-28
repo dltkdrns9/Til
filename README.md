@@ -6,14 +6,21 @@ DateTime
 DateTime.ToUniversalTime();
 현재 DateTime 개체의 값을 UTC(협정 세계시)로 변환
 
-long으로 정의된 변수를 DateTime으로 변환할 수 있다.
-
-
 <pre>
 <code>
 DateTime startInput = Convert.ToDateTime(startTimeInput.text).AddHours(9).ToUniversalTime();
 </code>
 </pre>
+
+long으로 정의된 변수를 DateTime으로 변환할 수 있다.
+변환은 Ticks로 한다.
+
+<pre>
+<code>
+long startTime = startInput.Ticks; // long Type = 010202000000
+</code>
+</pre>
+
 
 Json
 ----
