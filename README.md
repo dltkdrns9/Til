@@ -24,7 +24,8 @@ long startTime = startInput.Ticks; // long Type = 010202000000
 
 Json
 ----
-* 원하는 객체를 Json으로 변환하기 위해서는 JsonUtility사용이 필요하다. 단, Dictionary는 Json으로의 변환이 불가능하다.
+* 원하는 객체를 Json으로 변환하기 위해서는 JsonUtility사용이 필요하다.
+    + 단, Dictionary는 Json으로의 변환이 불가능하다.
 * 구조체(class)를 Json으로 변환하고 싶을땐 JsonUtility.ToJson을 통해 Json화 가능하다.
 * 다수의 구조체를 Json으로 변환하고 싶을땐 해당 구조체를 List형태로 가지고 있는 다른 하나의 class를 생성하여 해당 class를 Json화 시키면 된다.
 
