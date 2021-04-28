@@ -41,4 +41,8 @@ var jsonPlayer = JsonUtility.ToJson(PlayerList.jsonPlayers);
 
 Json을 다시 class로 변환하고 싶을 땐 JsonUtility.FromJson을 통해 class화 가능하다. 단, 해당 Json에 맞는 구조체 형식이 있어야 한다.
 
+<pre>
+<code>
 List<UserInfo> userLists = JsonUtility.FromJson<List<UserInfo>>(json);
+</code>
+</pre>
