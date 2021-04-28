@@ -12,7 +12,7 @@ DateTime startInput = Convert.ToDateTime(startTimeInput.text).AddHours(9).ToUniv
 </code>
 </pre>
 
-long으로 정의된 변수를 DateTime으로 변환할 수 있다.
+DateTime으로 정의된 변수를 long Type으로 변환할 수 있다.
 변환은 Ticks로 한다.
 
 <pre>
